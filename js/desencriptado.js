@@ -162,7 +162,7 @@ function contenidoDivCifrado() {
         divCifrado.appendChild(parrafoCifrado2);
         divCifrado.appendChild(h2Cifrado2);
 
-        escribirTexto("parrafoCifrado2", 0, "Descrifad el sigu1ente mensaje:", function () {
+        escribirTexto("parrafoCifrado2", 0, "Descifrad el sigu1ente mensaje:", function () {
           escribirTexto("h2Cifrado2", 0, "RY AHZREB FRPERGB DHR RFGNVF OHFPNAQB RF FVRGR", function () {
             divCifrado.appendChild(input);
             divCifrado.appendChild(feedback);
